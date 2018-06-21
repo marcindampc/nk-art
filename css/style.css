@@ -1,6 +1,6 @@
 body,html {
     height: 100%;
-    background-color: #ECDCC4
+    background-color: #F6F2E6
   }
 
 section {
@@ -9,6 +9,14 @@ section {
   }
 
 /* navigation */
+
+.navbar-brand, h2 {
+font-family: 'Dosis', sans-serif;
+}
+
+.navar-link, p {
+  font-family: 'Open Sans', sans-serif;
+}
 
 /* kontakt */
 
