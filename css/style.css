@@ -38,6 +38,10 @@ h3 {
     list-style-type: none;
   }
 
+.image-shadow {
+  box-shadow: 50px 50px 10px #F6F2E6;
+}
+
 /* footer */
 
 .copyrights {
