@@ -26,7 +26,7 @@ h3 {
 /* kontakt */
 
 #kontakt {
-    min-height: 80%;
+    min-height: 60%;
   }
 
 #kontakt ul {
@@ -37,6 +37,16 @@ h3 {
 #kontakt li {
     list-style-type: none;
   }
+
+#contact-name {
+  font-family: Italianno, serif;
+  font-size: 2.2em;
+}
+
+#contact-link {
+  text-decoration: none;
+  color: #000;
+}
 
 .image-shadow {
   box-shadow: 50px 50px 10px #F6F2E6;
