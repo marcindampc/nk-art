@@ -1,6 +1,6 @@
 // scroll animation
 
-$('#mainNav ul li a[href^="#"]').on('click', function(e){
+$('.mainNav ul li a[href^="#"]').on('click', function(e){
     e.preventDefault();
     var hashTag = this.hash;
     $('html, body').animate({
