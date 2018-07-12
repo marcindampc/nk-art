@@ -8,8 +8,10 @@
     <title>Natalia Krzyżanowska</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Domine|Frank+Ruhl+Libre:300,400|Italianno|Vollkorn&amp;subset=latin-ext" rel="stylesheet">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Domine|Frank+Ruhl+Libre:300,400|Italianno|Vollkorn&amp;subset=latin-ext"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt"
+        crossorigin="anonymous">
 </head>
 
 <body>
@@ -27,8 +29,17 @@
                         <a class="nav-link" href="/omnie.html#omnie">O mnie
                         </a>
                     </li>
-                    <li class="nav-item px-2">
-                        <a class="nav-link" href="/tworczosc.html">Twórczość</a>
+                    <li class="nav-item px-2 dropdown">
+                        <a class="nav-link dropdown-toggle" href="/tworczosc.html" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
+                            aria-expanded="false">
+                            Twórczość
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="/tworczosc.html#ilustracje">Ilustracje</a>
+                            <a class="dropdown-item" href="/tworczosc.html#akwarela">Akwarela</a>
+                            <a class="dropdown-item" href="/tworczosc.html#grafika">Grafika</a>
+                            <a class="dropdown-item" href="/tworczosc.html#wiersze">Wiersze</a>
+                        </div>
                     </li>
                     <li class="nav-item px-2">
                         <a class="nav-link" href="/portfolio.html">Portfolio</a>
@@ -66,8 +77,8 @@
                     </p>
                 </div>
                 <div class="col-md-4 d-flex justify-content-center align-items-center">
-                        <img class="img-fluid col-11" src="img/kontakt1fix.jpg" alt="kontakt">
-                    </div>
+                    <img class="img-fluid col-11" src="img/kontakt1fix.jpg" alt="kontakt">
+                </div>
             </div>
         </div>
     </section>
