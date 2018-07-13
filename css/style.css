@@ -19,6 +19,11 @@ font-size: 2rem;
   font-family: 'Frank Ruhl Libre', serif;
 }
 
+.dropdown-menu {
+  background-color: #F6F2E6;
+  font-family: 'Frank Ruhl Libre', serif;
+}
+
 h3 {
   font-family: 'Frank Ruhl Libre', serif;
 }
