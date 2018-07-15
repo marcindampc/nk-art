@@ -23,7 +23,7 @@ p {
 }
 
 .dropdown-menu {
-  background-color: #F6F2E6;
+  background-color: rgb(255, 255, 255, 0.3);
   font-family: 'Frank Ruhl Libre', serif;
   font-size: 0.9em;
   border: none;
