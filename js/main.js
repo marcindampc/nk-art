@@ -1,5 +1,3 @@
-// scroll animation
-
 $('.mainNav ul li a[href^="#"]').on('click', function(e){
     e.preventDefault();
     var hashTag = this.hash;

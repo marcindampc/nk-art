@@ -6,7 +6,10 @@ html {
 
 section {
   width: 100%;
-  /* min-height: 100%; */
+}
+
+h3 {
+  font-family: 'Frank Ruhl Libre', serif;
 }
 
 /* navigation */
@@ -29,15 +32,7 @@ p {
   border: none;
 }
 
-h3 {
-  font-family: 'Frank Ruhl Libre', serif;
-}
-
-/* kontakt */
-
-#kontakt {
-  /* min-height: 60%; */
-}
+/* contact */
 
 #kontakt ul {
   margin: 0;
