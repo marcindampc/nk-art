@@ -8,6 +8,7 @@
     <title>Natalia Krzyżanowska - grafika</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css">
     <link href="https://fonts.googleapis.com/css?family=Frank+Ruhl+Libre|Italianno&amp;subset=latin-ext" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt"
         crossorigin="anonymous">
@@ -55,50 +56,38 @@
         </nav>
     </header>
 
-    <section id="banner" class="section d-flex">
+    <section id="banner" class="section">
 
         <div class="container mx-auto">
             <img src="img/basia-bg-bright.jpg" alt="Basia" class="img-fluid col-12">
         </div>
     </section>
 
-    <section id="grafika">
+    <section id="grafika" class="section">
         <div class="container">
-            <h3 class="text-center">Grafika</h3>
-            <div class="row m-3">
-                <div class="col-4">
-                    <img src="img/twardowski.JPG" alt="fontanna" class="img-fluid rounded">
+            <h3 class="text-center my-5">Grafika</h3>
+            <div class="row align-items-center justify-content-between">
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <a href="img/twardowski.JPG" data-toggle="lightbox" data-gallery="img-gallery">
+                        <img src="img/twardowski.JPG" alt="fontanna" class="img-fluid img-thumbnail rounded">
+                    </a>
                 </div>
-                <div class="col-4">
-                    <img src="img/twardowski.JPG" alt="fontanna" class="img-fluid rounded">
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <a href="img/Cyrano de Bergerac (2).JPG" data-toggle="lightbox" data-gallery="img-gallery">
+                        <img src="img/Cyrano de Bergerac (2).JPG" alt="fontanna" class="img-fluid img-thumbnail rounded">
+                    </a>
                 </div>
-                <div class="col-4">
-                    <img src="img/twardowski.JPG" alt="fontanna" class="img-fluid rounded">
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <a href="img/dzien matki-car.jpg" data-toggle="lightbox" data-gallery="img-gallery">
+                        <img src="img/dzien matki-car.jpg" alt="fontanna" class="img-fluid img-thumbnail rounded">
+                    </a>
                 </div>
-            </div>
-            <div class="row m-3">
-                <div class="col-4">
-                    <img src="img/twardowski.JPG" alt="fontanna" class="img-fluid rounded">
-                </div>
-                <div class="col-4">
-                    <img src="img/twardowski.JPG" alt="fontanna" class="img-fluid rounded">
-                </div>
-                <div class="col-4">
-                    <img src="img/twardowski.JPG" alt="fontanna" class="img-fluid rounded">
-                </div>
-            </div>
-            <div class="row m-3">
-                <div class="col-4">
-                    <img src="img/twardowski.JPG" alt="fontanna" class="img-fluid rounded">
-                </div>
-                <div class="col-4">
-                    <img src="img/twardowski.JPG" alt="fontanna" class="img-fluid rounded">
-                </div>
-                <div class="col-4">
-                    <img src="img/twardowski.JPG" alt="fontanna" class="img-fluid rounded">
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <a href="img/spacer z mama.JPG" data-toggle="lightbox" data-gallery="img-gallery">
+                        <img src="img/spacer z mama.JPG" alt="fontanna" class="img-fluid img-thumbnail rounded">
+                    </a>
                 </div>
             </div>
-
         </div>
     </section>
 
@@ -115,6 +104,8 @@
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js"></script>
+    <script src="js/lightbox-script.js"></script>
 </body>
 
 </html>
