@@ -52,6 +52,11 @@ p {
   color: #000;
 }
 
+.contact-description {
+  font-family: 'Italianno', cursive;
+  font-size: 1.2em;
+}
+
 .image-shadow {
   box-shadow: 50px 50px 10px #F6F2E6;
 }
