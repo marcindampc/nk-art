@@ -17,7 +17,7 @@ section {
 /* navigation */
 
 .navbar-brand,
-h2, h3 {
+h2, h3, #contact-name {
   font-family: 'Italianno', cursive;
   font-size: 2.1em;
 }
@@ -45,14 +45,9 @@ p {
   list-style-type: none;
 }
 
-#contact-name {
-  font-family: 'Italianno', cursive;
-  font-size: 2.1em;
-}
-
 #contact-link {
   text-decoration: none;
-  color: #000;
+  color: #212529;
 }
 
 .contact-description {
