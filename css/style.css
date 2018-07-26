@@ -14,14 +14,10 @@ section {
   width: 100%;
 }
 
-h3 {
-  font-family: 'Frank Ruhl Libre', serif;
-}
-
 /* navigation */
 
 .navbar-brand,
-h2 {
+h2, h3 {
   font-family: 'Italianno', cursive;
   font-size: 2.1em;
 }
